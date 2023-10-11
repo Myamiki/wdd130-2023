@@ -1,44 +1,70 @@
-nav {
-    background-colour : steelblue;
-    padding: 10px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-nav a {
-    colour: blue;
+
+nav {
+background-color: powderblue;
+padding: 10px;
+}
+
+nav a{
+    color:black;
     padding: 20px;
     display: block;
-}
 
+}
 h1 {
-    color: steelblue;
+    color: blueviolet;
 }
-
-img img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+main img {
+width: 150;
+height: auto;
+border: 1px solid steelblue;
+padding: 2px;
+box-shadow: 0  0  30px greenyellow;
+float: right;
+margin: 0 0 1rem 1rem;
 }
-
 p {
-    padding: 10px;
+padding: 10px;
 }
-aside {
-    width: 20em;
-    margin: 1em;
-    border: 1px solid rgba (0, 0, 0, 0.2)
-    padding: 2px;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+
+aside{
+width: 20em;
+margin: 1em;
+border: 1px solid rgba(0, 0, 0, 0.2);
+padding: 2px;
+background-color: powderblue;
+color:black;
+text-align: center;
+position: relative;
 }
-aside img: {
+
+aside img {
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    color: white;
+}
+
+
 footer {
     margin-top: 1em;
-    boader-top: 1px solid #000;
+    border-top: 1px solid #000;
     text-align: center;
 }
-    
+
+/*Class Selectors*/
+.box {
+    margin: 1rem;
+    border:1px solid rgba(0, 0, 0, 1);
+    padding: 1rem;
+    background-color: aqua;
+    color: #000;
+}
