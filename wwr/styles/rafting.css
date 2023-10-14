@@ -63,7 +63,6 @@ h1 {
 }
 article {
     position: absolute;
-    max-width: 800px;
     top:65px;
     right: 500px;
     background:radial-gradient(#9c89b8,#9c89b8);
