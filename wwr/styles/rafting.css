@@ -64,9 +64,9 @@ h1 {
 article {
     position: absolute;
     top:65px;
-    right: 400px;
-    width: 25;
-    height: 25;
+    right: 40px;
+    width: 50px;
+    height: 50px;
     background:radial-gradient(#9c89b8,#9c89b8);
     border: 1px solid #b8bedd;
     padding: 10px;
