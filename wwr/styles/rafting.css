@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
 
@@ -60,14 +60,14 @@ h1 {
     top: 20px;
     text-align: center;
     font-size: 1.5rem;
-    text-shadow: #b8bedd;
+    text-shadow: #9c89b8;
 }
 article {
     position: absolute;
     top: 70px;
     left: 0;
     width: 100%;
-    background: radial-gradient(#b8bedd,#b8bedd);
+    background: radial-gradient(#b8bedd,#9c89b8);
     box-shadow: 1px 10px #9c89b8;
     opacity: 0.8;
      
