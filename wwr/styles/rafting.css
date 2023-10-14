@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,h6 {
     object-fit: cover;
 }
 h1 {
-    width: 100%;
+    width: 80%;
     position:absolute;
     background-color: #b8bedd;
     border:1px solid #00ff00 ;
@@ -66,7 +66,8 @@ article {
     position: absolute;
     top: 70px;
     left: 0;
-    width: 100%;
+    width: 80%;
+    length:80%
     background: radial-gradient(#b8bedd,#9c89b8);
     box-shadow: 1px 10px #9c89b8;
     opacity: 0.8;
