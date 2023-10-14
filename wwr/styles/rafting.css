@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
 
@@ -67,11 +67,8 @@ article {
     top: 70px;
     width: 60%;
     background-color: #efc3e6;
-    
-    
-    
-
 }
+    
 .paddling {
     float: right;
     margin: 0 0 15px 15px;
