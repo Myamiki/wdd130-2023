@@ -1,1 +1,101 @@
+*{
+    
+    box-sizing: border-box;
+}
 
+nav {
+        background-color: powderblue;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }    
+
+
+nav a {
+    color:black;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+h1 {
+    color: blueviolet;
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+main img {
+width: 150;
+height: auto;
+border: 1px solid steelblue;
+padding: 2px;
+box-shadow: 0  0  30px greenyellow;
+float: right;
+margin: 0 0 1rem 1rem;
+}
+p {
+padding: 10px;
+}
+
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    color: white;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+/*Class Selectors*/
+.box {
+    margin: 1rem;
+    border:1px solid rgba(0, 0, 0, 1);
+    padding: 1rem;
+    background-color: aqua;
+    color: #000;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    align-items: center;
+}
+main {
+    margin: 1rem;
+    grid-column: 2;
+}
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+aside{
+    display: block;
+}
