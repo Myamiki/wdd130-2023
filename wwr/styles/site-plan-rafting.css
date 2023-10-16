@@ -43,9 +43,12 @@ nav a {
     text-decoration: none;
     padding: 1rem;
 }
-nav a:link, nav a :visited {color : var(--nav-link-color)
+
+nav a:link, nav a:visited {
+    color : var(--nav-link-color)
 }
-nav a :hover {
+nav a:hover {
+    
     color :var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
