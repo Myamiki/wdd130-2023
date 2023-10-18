@@ -17,7 +17,7 @@
 }
 
 *{
-    max-width: 1600px;
+    max-width: 1000px;
     margin: 3px;
     padding: 3px;
     box-sizing: border-box;
@@ -27,7 +27,7 @@ text-decoration: none;
 }
 
 body{
-    background-color: #b8bedd;
+    background-color: white;
 }
 .logo-box{
     margin: left 30px ;
@@ -77,4 +77,106 @@ article {
     float: right;
     margin: 0 0 15px 15px;
     border: 1px solid rgba(0, 0, 0, 1)
+}    
+.about-header {
+    display: grid;
+    margin: 1rem auto;
+    grid-template-columns: 120px 1fr 1fr ;
+    align-items: center;
+    border-bottom: 1px solid #00ff00;
+    min-width: 1000px;
+
+  }
+  .about-header {
+    text-align: right;
+
+  }
+
+  .about-header a {
+
+    color:#712f79;
+    padding: 20px;
+    text-decoration: none;
+  }
+  .about-header a:hover{
+    color: #712f79;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  .adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+  
+  .adventures h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+   h2 {
+    top: 70px;
+    left: 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
+
+.history-content {
+  display: flex;
+  grid-template-columns:1fr 1fr ;
+  gap: 10px;
+}
+
+.history p {
+     text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding: 8px;
+}
+
+.history-content img {
+  max-width: 100%;
+  max-height: 220px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+  figure {
+    border: thin #4c4c9d solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    min-width: 220px;
+    margin: auto;
+  }
+  
+  image {
+    max-width: 100px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: #712f79;
+    color: #9c89b8;
+    font: italic smaller sans-serif;
+    padding: 1px;
+    text-align: center;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #9c89b8;
+    color: #712f79;
+  }
