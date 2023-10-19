@@ -4,8 +4,9 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight:400;
-  @font-face.scr: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf)format('truetype');
 }
+  @font-face.scr: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf)format('truetype');
+
 
 *{
     max-width: 1000px;
