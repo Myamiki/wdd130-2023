@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6 {
     height: 100%;
     object-fit: cover;
 }
-h2 {
+h1 {
     width: 80%;
     position:absolute;
     background-color: #b8bedd;
