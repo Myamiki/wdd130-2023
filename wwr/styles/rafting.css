@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight:400;
-    font-display:swap;
+@font-face{
+font-family : 'Roboto';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
 }
-
 *{
     max-width: 1000px;
-    margin: 3px;
-    padding: 3px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .sociallinks a {
@@ -18,6 +18,7 @@ text-decoration: none;
 }
 
 body{
+    font-family: var(--paragraph-font);
     background-color: white;
 }
 
@@ -161,11 +162,80 @@ article {
     padding: 1px;
     text-align: center;
   }
-  
+
+  .contactContent {
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    gap: 10px;
+    text-align: left;
+    line-height: 2rem;
+    margin-top: 12px;
+  }
+  .contactContent h2 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 18px;
+  }
+  .contactContent label,
+  input[type="text"]
+  input[type="email"]
+  textarea,
+  select {
+    padding: 6px;
+    width: 90%;
+    font-weight: bold;
+  }
+
+  .contactContent{
+    width: 350px;
+    height: auto;
+  } 
+
+
+
+
+  .radio-group {
+    display: block;
+    gap: 5px;
+    align-items: left;
+  }
+  .radio-group input [type="radio"]:checked {
+    background-color: #b8bedd;
+  }
+
+  .contactContent button {
+    background-color: #712f79;
+    color: #b8bedd;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 90%;
+    cursor: pointer;
+
+  }
+
   footer {
     display: flex;
     justify-content: center;
     padding: 5px;
     background-color: #9c89b8;
     color: #712f79;
+    border: 1px solid #000;
+  }
+  footer p {
+    flex: 1;
+    margin: 0;
+  }
+
+  .sociallinks {
+    display: flex;
+    gap: 10px;
+  }
+  .sociallinks a{
+    text-decoration: none;
+  }
+  .sociallinks img {
+    width: 30px;
+    height: auto;
   }
