@@ -191,13 +191,9 @@ article {
     height: auto;
   } 
 
-
-
-
   .radio-group {
     display: block;
     gap: 5px;
-    align-items: left;
   }
   .radio-group input [type="radio"]:checked {
     background-color: #b8bedd;
