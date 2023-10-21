@@ -164,7 +164,6 @@ article {
   }
 
   .contactContent {
-    display: grid;
     grid-template-columns: 1fr 50%;
     gap: 10px;
     text-align: left;
