@@ -1,35 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-:root {
-
-    --primary-color:#9c89b8;
-    --secondary-color:#f0a6ca;
-    --accent1-color:#efc3e6;
-    --accent2-color:#b8bedd;
-    
-    --heading-font:"Roboto"
-    --paragraph-font:Roboto, Helvetica ,sans-serif;
-    
-    --nav-background-color:#00ff00;
-    --nav-link-color:#4c4c9d;
-    --nav-hover-link-color:#712f79;
-    --nav-hover-background-color:#f7996e;
+@font-face{
+font-family : 'Roboto';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
 }
-
 *{
-    max-width: 1600px;
+    max-width: 1000px;
     margin: 0;
-    padding: 3px;
+    padding: 0;
     box-sizing: border-box;
 }
 .sociallinks a {
 text-decoration: none;
 }
 
-
-.logo-box{
-    margin: left 30px ;
+body{
+    font-family: var(--paragraph-font);
+    background-color: white;
 }
+
 h1,h2,h3,h4,h5,h6 {
     color: #712f79;
     margin-left: 30px;
@@ -38,7 +30,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .hero  {
     border: 1px solid #f7996e;
-    margin: 0 auto;
+    margin: 45px auto;
     position:relative;
     
 }
@@ -49,18 +41,16 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin: 0 auto;
 }
 h1 {
     width: 80%;
     position:absolute;
-    background-color: white;
-    border:1px solid black ;
+    background-color: #b8bedd;
+    border:1px solid #00ff00 ;
     top: 20px;
     text-align: center;
     font-size: 1.5rem;
-    text-shadow: #9c89b8;
-    margin: 0 auto;
+    
 }
 article {
     position: absolute;
@@ -70,7 +60,6 @@ article {
     background: radial-gradient(#b8bedd,#9c89b8);
     box-shadow: 1px 10px #9c89b8;
     opacity: 0.8;
-    margin: 0;
      
 
 }
@@ -78,20 +67,248 @@ article {
     float: right;
     margin: 0 0 15px 15px;
     border: 1px solid rgba(0, 0, 0, 1)
-}
-header{
+}    
+.about-header {
+display: flex;
     margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 120px 1fr 2fr;
+    grid-template-columns: 120px 2fr 2fr ;
     align-items: center;
-    border-bottom: 1px solid #4c4c9d;
-    max-width: 1000px;
+    border-bottom: 1px solid #00ff00;
+    min-width: 1000px;
+
+  }
+  .about-header {
+    text-align: right;
+
+  }
+
+  .about-header a {
+
+    color:#712f79;
+    padding: 20px;
+    text-decoration: none;
+  }
+  .about-header a:hover{
+    color: #712f79;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  .adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+  
+  .adventures h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+   h2 {
+    top: 70px;
+    left: 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
-.logo {
-    margin: 0 0.25rem 0 1rem;
-    width: 64px;
+
+.history-content {
+  display: flex;
+  grid-template-columns:1fr 1fr ;
+  gap: 10px;
+}
+
+.history p {
+     text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding: 8px;
+}
+
+.history-content img {
+  max-width: 100%;
+  max-height: 220px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+  figure {
+    border: thin #4c4c9d solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    min-width: 220px;
+    margin: auto;
+  }
+  
+  image {
+    max-width: 100px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: #712f79;
+    color: #9c89b8;
+    font: italic smaller sans-serif;
+    padding: 1px;
+    text-align: center;
+  }
+
+  .contactContent {
+  display: flex;
+    grid-template-columns: 1fr 50%;
+    gap: 10px;
+    text-align: left;
+    line-height: 2rem;
+    margin-top: 12px;
+  }
+  .contactContent h2 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 18px;
+  }
+  .contactContent label,
+  input[type="text"]
+  input[type="email"]
+  textarea,
+  select {
+    padding: 6px;
+    width: 90%;
+    font-weight: bold;
+  }
+
+  .contactContent{
+    width: 350px;
     height: auto;
+  } 
+
+
+
+
+  .radio-group {
+    display: block;
+    gap: 5px;
+    
+  }
+  .radio-group input [type="radio"]:checked {
+    background-color: #b8bedd;
+  }
+
+  .contactContent button {
+    background-color: #712f79;
+    color: #b8bedd;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 90%;
+    cursor: pointer;
+
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #9c89b8;
+    color: #712f79;
+    border: 1px solid #000;
+  }
+  footer p {
+    flex: 1;
+    margin: 0;
+  }
+
+  .sociallinks {
+    display: flex;
+    gap: 10px;
+  }
+  .sociallinks a{
+    text-decoration: none;
+  }
+  .sociallinks img {
+    width: 30px;
+    height: auto;
+  }
+
+.body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../img2.jpg");
+  background-color: #4c4c9d;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
 }
-h1 {
-    font-size: 2rem;
-    font-family: Acme, Arial, sans-seri
+
+.heading{
+  width: 30%;
+  text-align: center;
+  color:white;
+  background-color: #4c4c9d;
+}
+.heading h4 {
+  font-size: 20px;
+}
+.heading a {
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 45px;
+  padding-left: 14px 50px;
+  background-color: #fff;
+}
+
+.heading a:hover {
+  letter-spacing: 3px;
+  transition: 0.6;
+}
+
+.tours {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.places {
+  display: inline;
+  text-align: center;
+  border-radius: 12px;
+}
+.places h4{
+  color: white;
+  font-size: 25px;
+  letter-spacing: 3px;
+  border-radius: 4px;
+  padding: 3px 3px;
+  background-color: #000;
+}
+.places a {
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 12px;
+  padding: 12px 30px;
+  background-color: #712f79;
+}
+.places a :hover {
+  background-color: #000;
+  letter-spacing: 1px;
+  transition: 0.6s;
+}
+
+
