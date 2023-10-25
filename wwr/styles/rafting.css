@@ -22,9 +22,6 @@ body{
     background-color: skyblue;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    color: #712f79;
-}
 
 
 .hero  {
@@ -46,7 +43,7 @@ h1 {
     position:absolute;
     background-color: white;
     border:1px solid #00ff00 ;
-    top: 30%;
+    top: 50%;
     text-align: center;
     font-size: 1.5rem;
     
