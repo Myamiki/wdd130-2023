@@ -28,16 +28,9 @@ body{
     border: 1px solid #f7996e;
     margin: 35px auto;
     position:relative;
-    
-}
-
-
-.hero  {
-    position:relative;
     width: 100%;
     height: auto;
     padding:0;
-    object-fit: cover;
 }
 .hero h1 {
     position: absolute;
