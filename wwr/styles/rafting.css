@@ -33,11 +33,18 @@ body{
 
 
 .hero  {
-    display: block;
-    width: 70%;
-    height: 70%;
+    position:relative;
+    width: 100%;
+    height: auto;
+    padding:0;
     object-fit: cover;
 }
+.hero h1 {
+    position: absolute;
+    top: 2%;
+    font-size: 36px;
+    text-align: center;
+
 h1 {
     
     position:absolute;
