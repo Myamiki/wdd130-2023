@@ -44,14 +44,13 @@ h1 {
     with:100%;
     border:1px solid black;
     background-color: white;
-    top: 50px;
     text-align: center;
     font-size: 40px;
     
 }
 article {
     position: absolute;
-    left: 0;
+    align-item:center;
     width: 100%;
     background: radial-gradient(#b8bedd,#9c89b8);
     box-shadow: 1px 10px #9c89b8;
