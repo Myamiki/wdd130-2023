@@ -39,9 +39,9 @@ body{
     object-fit: cover;
 }
 h1 {
-    width: 70%;
+    width: 50%;
     position:absolute;
-    background-color: white;
+    background-color: none;
     border:1px solid #00ff00 ;
     top: 50px;
     text-align: center;
