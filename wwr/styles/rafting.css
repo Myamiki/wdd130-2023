@@ -19,12 +19,11 @@ text-decoration: none;
 
 body{
     font-family: var(--paragraph-font);
-    background-color: white;
+    background-color: skyblue;
 }
 
 h1,h2,h3,h4,h5,h6 {
     color: #712f79;
-    margin-left: 30px;
 }
 
 
@@ -47,7 +46,7 @@ h1 {
     position:absolute;
     background-color: white;
     border:1px solid #00ff00 ;
-    bottom: 70%;
+    top: 30%;
     text-align: center;
     font-size: 1.5rem;
     
@@ -75,9 +74,6 @@ display: flex;
     align-items: center;
     border-bottom: 1px solid #00ff00;
     min-width: 1000px;
-
-  }
-  .about-header {
     text-align: right;
 
   }
