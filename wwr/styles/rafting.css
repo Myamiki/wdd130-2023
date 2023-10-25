@@ -41,6 +41,7 @@ body{
 h1 {
     
     position:absolute;
+    with:100%;
     border:1px solid black;
     background-color: white;
     top: 50px;
