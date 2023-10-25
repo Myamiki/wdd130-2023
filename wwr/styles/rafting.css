@@ -363,21 +363,6 @@ display: flex;
     background-color: skyblue;
   }
 
-  .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba (0, 0, 0 0.5)), url(pic12.jpg);
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  .hero-text{
-    text-align: center;
-    position: absolute;
-    top:50%;
-    
-  }
   .cta-section{
     background-image: url(../pic4.jpg);
     position: relative;
