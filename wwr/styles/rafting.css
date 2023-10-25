@@ -50,8 +50,9 @@ h1 {
 }
 article {
     position: absolute;
+    align-item: center;
     width: 100%;
-    top:70%;
+    top:50%;
     background: radial-gradient(#b8bedd,#9c89b8);
     box-shadow: 1px 10px #9c89b8;
     opacity: 0.8;
