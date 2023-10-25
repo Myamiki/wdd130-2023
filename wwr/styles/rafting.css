@@ -39,10 +39,10 @@ body{
     object-fit: cover;
 }
 h1 {
-    width: 50%;
+    
     position:absolute;
     background-color: none;
-    top: 40px;
+    top: 30px;
     text-align: center;
     font-size: 40px;
     
